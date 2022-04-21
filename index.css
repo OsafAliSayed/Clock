@@ -1,0 +1,40 @@
+body
+{
+    background-color : rgb(32, 32, 32);
+    font-family : 'Orbitron', sans-serif;
+    margin-top : 15%;
+    text-align : center;
+}
+
+h1
+{
+    color : white;
+    font-size : 75px;  
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#face{
+    height: 200px;
+    width: 200px;
+    border: 2px white solid; 
+    border-radius: 50%;
+    display: inline-block;
+    position : relative;
+    bottom : 10px;
+}
+
+.hands{
+    position : absolute;
+    right : 50%;
+    bottom : 50%;
+    transform-origin : bottom;
+    height : 80px;
+    width : 3px;
+    background-color : whitesmoke;
+    transition : all 0.0125s;
+}
